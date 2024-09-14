@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  height: 100%;
+}
+.body {
+  background-color: #a01a10;
+  color: #fdf3f1;
+}
+.home {
+  height: 95vh;
+  display: flex;
+}
+.homecontent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 300px;
+  padding: 20px;
+  width: 100%;
+}
+.homeImages > img {
+  height: 400px;
+}
+.heroText {
+  height: 400px;
+  width: 350px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  h1 {
+    font-size: 45px;
+    letter-spacing: 2px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+.products {
+  height: 100vh;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productContent {
+  display: flex;
+  padding: 4vmax;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.productItems {
+  background-color: #a01a10;
+  width: 100%;
+  height: 200px;
+}
+
+.teamcontent {
+  height: 100vh;
+  background-color: brown;
+}
